@@ -26,7 +26,7 @@
 * Clique em Chaves e Ponto de extremidade
 * Guarde a chave e a região que criamos o serviço, iremos precisar para a aplicação
 
-![alt text](image.png)
+![alt text](img/image.png)
 
 # Criando Projeto no Studio Custom Vision
 
@@ -34,62 +34,62 @@ Após criar os serviços cognitivos no Azure acesso o [Studio do Custom Vision](
 
 * Clique em New Project
 
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 
 * Adicione um nome para o projeto: ""
 
-![alt text](image-2.png)
+![alt text](img/image-2.png)
 
 * Clique em Criar Projeto e Aguarde
 Agora podemos adicionar as fotos de trabalhadores com capacetes e trabalhadores sem capacete
 
-![alt text](image-3.png)
+![alt text](img/image-3.png)
 
 * Após selecionar as imagens, coloque a tag "com_capacete"
 
-![alt text](image-4.png)
+![alt text](img/image-4.png)
 
 * Adicione as imagens de colaboradores sem capacete, e adcione a tag "sem_capacete"
 
-![alt text](image-5.png)
+![alt text](img/image-5.png)
 
 * Após adicionar todas as imagens
 * Clique em Train para treinar o modelo
 
-![alt text](image-6.png)
+![alt text](img/image-6.png)
 * Selecione: Quick Training
 * Clique em Train
 
-![alt text](image-7.png)
+![alt text](img/image-7.png)
 
 * Aguarde
 
-![alt text](image-8.png)
+![alt text](img/image-8.png)
 
 Quando finalizar podemos testar se o modelo está bem treinado:
-![alt text](image-9.png)
+![alt text](img/image-9.png)
 
 * Clique no Test e copie a URL de imagem de pessoa com capacete e uma sem capacete para verificar
 
 ## Com Capacete
 
-![alt text](image-10.png)
+![alt text](img/image-10.png)
 
 ## Sem Capacete
 
-![alt text](image-11.png)
+![alt text](img/image-11.png)
 
 Agora Publique o modelo:
 * Clique em Publish
 * Adicione um nome para o modelo
 * Selecione o Servico Cognitivo
 
-![alt text](image-12.png)
+![alt text](img/image-12.png)
 
 * Agora acesse o Preciction URL para adicionar na aplciação
 Você usará a URL no código da aplciação
 
-![alt text](image-13.png)
+![alt text](img/image-13.png)
 
 
 # Criando a Aplicação
@@ -111,4 +111,4 @@ Em uma janela de console (como cmd, PowerShell ou Bash), crie um novo diretório
 
     O arquivo package.json do seu aplicativo é atualizado com as dependências.
 
-3. Crie um arquivo chamado index.html, abra o editor VS Code e crie o arquivo (veja o arquivo completp index.html)
+3. Crie um arquivo chamado index.html, abra o editor VS Code e crie o arquivo (veja o arquivo completo index.html - exemplo pasta code)
